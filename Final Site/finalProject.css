@@ -1,0 +1,370 @@
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+head, nav, main, footer { display: block; }
+
+* { 
+    box-sizing: border-box; 
+}
+
+#wrapper { 
+    background-color: #2e5959;
+    border: 1px solid;
+    box-shadow: 3px 6px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+} 
+
+head {
+    float:right;
+    background-color: #3b4859;
+    color: white;
+}
+
+nav {
+    float:left;
+    width: 300px;
+    background-color: #2e5959;
+    text-align: center;
+    margin-top: auto;
+    list-style: none;
+    font-family: sans-serif
+}
+
+nav ul {
+    padding-left: 0px;
+    height: 100%;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.7em;
+    padding-bottom: .2em;
+    text-align: center;
+    
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightyellow;
+}
+
+nav a:visited {
+    color:white;
+}
+
+main {
+    margin-right: auto;
+    margin-left: 300px;
+    padding-left: 10px;
+    height: 100%;
+    background-color: #3b4859;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+table {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+table a:link {
+    color:white;
+}
+
+table a:hover {
+    color: lightyellow;
+}
+
+table a:visited {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    background-color: #3b4859;
+    margin: auto;
+    padding-top: 5px;
+    margin-left: 300px
+}
+
+h1 {
+    background-image:url(images/minimountain.png);
+    background-repeat:no-repeat;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 250px;
+    color: #f86b40;
+    font-size: 2em;
+    padding-top: 120px;
+    background-color: #3b4859;
+}
+
+h2 {
+    color: #f86b40;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+h3 {
+    color: #f86b40;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+h4 {
+    color: white;
+}
+
+main li {
+    list-style: none;
+    color: white;
+    padding-bottom: 5px
+}
+
+main a:link {
+    color:white;
+}
+
+main a:hover {
+    color: lightyellow;
+}
+
+main a:visited {
+    color: white;
+}
+
+footer a:link {
+    color:white;
+}
+
+footer a:hover {
+    color: lightyellow;
+}
+
+footer p {
+    color: white;
+}
+
+p {
+    color: #f86b40;
+    font-size: 1.2em;
+    margin-bottom: auto
+}
+
+#showcase {
+    text-align: center;
+    color: white;
+    background-color: #3b4859;
+    margin-bottom: auto;
+}
+
+#html {
+    width: auto;
+    height: 138px;
+    background-image:url(images/html.jpg);
+}
+
+.pet {
+    width: auto;
+    height: 320px;
+    margin-right: 1em;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    body { 
+        font-family:sans-serif ;
+        background-image: none;
+        color: #221811;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #wrapper { 
+        background-color: #231814;
+        border: 1px solid;
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+        padding: 0; 
+    }
+    
+    head{
+        color:black;
+        background-color: #D2B48C;
+        margin-bottom: auto;
+        float: none;
+        border-bottom: (#FEF6C2, 5px)
+    }
+
+    h1{
+        color:black;
+        background-color: #D2B48C;
+        font-size: 2.5em;
+        text-align:  center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(images/mountainbanner.jpg);
+        padding-right: 3%;
+        background-repeat:no-repeat;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-top: 0;
+        
+    }
+
+    nav { 
+        float: none;
+        background-color: #2e5959;
+        padding-top: 0;
+        width: auto;
+        font-size: 1.3em;
+    } 
+    
+    nav li {
+        display: inline-block;
+        font-size: .8em;
+    }
+    
+    nav ul { 
+        list-style-type: none;
+        padding: 0px;
+        margin: 0;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    nav a { 
+        text-decoration: none;
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+    }
+    
+    main { 
+        margin-left: 0;
+        background-color: #3b4859;
+        color: #000000;
+        font-size: 90%;
+    }     
+    
+    footer {
+        margin-left: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    head{
+        color:black;
+        background-color: #3b4859;
+        margin-bottom: auto;
+        float: right;
+        background-image: url(images/minimountain.png);
+        background-repeat:no-repeat;
+        height: 128px;
+    }
+    
+    h1{
+        color:black;
+        background-color: #3b4859;
+        font-size: 2em;
+        text-align:  center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(images/javajammini.jpg);
+        background-repeat:no-repeat;
+        background-size: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-top: 0;
+        color: #f86b40;
+        height: 128px;
+        border-bottom-color: #3b4859;
+        border-bottom-style: solid;
+        
+    }
+    
+    h2 {
+        padding-left: .5em;
+        padding-right: 0em;
+        padding-top: .5em;
+        padding-bottom: 0em;
+        margin-right: .5em
+}
+    
+    nav { 
+        float: none;
+        background-color: #2e5959;
+        margin: 0;
+        padding-top: 0;
+        width: auto;
+        font-size: 1.3em;
+    } 
+    
+    nav a { 
+        display: block;
+        text-decoration: none;
+        padding: .2em;
+        width: auto;
+        font-weight: bold;
+        border-bottom: (white, 1px)
+    }
+    
+    nav li {
+        display: block;
+        border-bottom-color: white;
+        border-bottom-style: solid;
+        
+    }
+    
+    main { 
+        margin-left: 0;
+        background-color: #3b4859;
+        color: #000000;
+        font-size: 90%;
+        padding-top: 1px;
+    } 
+    #html {
+        background-image: none;
+        height: 0px;
+    }
+    
+    .pets {
+        background-image: none;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    #wrapper { 
+        background-color: #231814;
+        border: 1px solid;
+        box-shadow: none;
+        margin: 0;
+        min-width: 0;
+        padding: 0; 
+    }
+    
+}
